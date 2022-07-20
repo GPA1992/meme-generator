@@ -22,7 +22,7 @@ main {
     align-items: center;
     height: 500px;
     width: 50%;
-    border: 1px solid red;
+    border: 1px solid black;
     margin: 20px;
     background-color: white;
 }
