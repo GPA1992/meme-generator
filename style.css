@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+header {
+ border: 1px solid grey;
+ height: 50px;
+ width: 100%;
+ top: 0;
+ position: fixed;
+}
+
+main {
+  margin-top: 52px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#meme-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 50%;
+    border: 1px solid red;
+    margin: 20px;
+    background-color: white;
+}
+
+#meme-text {
+    position: absolute;
+    text-shadow: black 5px 5px 5px ;
+    font-size: 30px;
+    color: white;    
+}
+
+#meme-image {
+    height: 100%;
+    width: 100%;
+}
