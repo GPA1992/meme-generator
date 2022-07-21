@@ -249,7 +249,7 @@ describe("6 - Permita a quem usa customizar o meme escolhido acrescentando a ele
   })
 });
 
-describe("7 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Mostre miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura do elemento de container.", () => {
+describe.only("7 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher. Mostre miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro da moldura do elemento de container.", () => {
   beforeEach(() => {
     cy.viewport(1366, 768);
     cy.visit('/');
